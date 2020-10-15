@@ -19,6 +19,7 @@
 		53DAC96E2538E95700294801 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC96D2538E95700294801 /* ComplicationController.swift */; };
 		53DAC9702538E95800294801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC96F2538E95800294801 /* Assets.xcassets */; };
 		53DAC9732538E95800294801 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC9722538E95800294801 /* Preview Assets.xcassets */; };
+		53DAC9872538EA7100294801 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC9862538EA7000294801 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		53DAC9722538E95800294801 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53DAC9742538E95800294801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53DAC9752538E95800294801 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		53DAC9862538EA7000294801 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		53DAC9442538E95500294801 = {
 			isa = PBXGroup;
 			children = (
+				53DAC9862538EA7000294801 /* .gitignore */,
 				53DAC9532538E95500294801 /* DrinkReminder WatchKit App */,
 				53DAC9622538E95700294801 /* DrinkReminder WatchKit Extension */,
 				53DAC94C2538E95500294801 /* Products */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DAC9872538EA7100294801 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
