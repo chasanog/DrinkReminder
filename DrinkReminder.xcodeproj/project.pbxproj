@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DAC9502538E95500294801 /* DrinkReminder WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53DAC94F2538E95500294801 /* DrinkReminder WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53DAC9562538E95500294801 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC9542538E95500294801 /* Interface.storyboard */; };
+		53DAC9582538E95700294801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC9572538E95700294801 /* Assets.xcassets */; };
+		53DAC95F2538E95700294801 /* DrinkReminder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53DAC95E2538E95700294801 /* DrinkReminder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53DAC9642538E95700294801 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC9632538E95700294801 /* HostingController.swift */; };
+		53DAC9662538E95700294801 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC9652538E95700294801 /* ContentView.swift */; };
+		53DAC9682538E95700294801 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC9672538E95700294801 /* ExtensionDelegate.swift */; };
+		53DAC96A2538E95700294801 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC9692538E95700294801 /* NotificationController.swift */; };
+		53DAC96C2538E95700294801 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC96B2538E95700294801 /* NotificationView.swift */; };
+		53DAC96E2538E95700294801 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAC96D2538E95700294801 /* ComplicationController.swift */; };
+		53DAC9702538E95800294801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC96F2538E95800294801 /* Assets.xcassets */; };
+		53DAC9732538E95800294801 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DAC9722538E95800294801 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53DAC9512538E95500294801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DAC9452538E95500294801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DAC94E2538E95500294801;
+			remoteInfo = "DrinkReminder WatchKit App";
+		};
+		53DAC9602538E95700294801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DAC9452538E95500294801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DAC95D2538E95700294801;
+			remoteInfo = "DrinkReminder WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53DAC97B2538E95800294801 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53DAC95F2538E95700294801 /* DrinkReminder WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DAC97F2538E95800294801 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53DAC9502538E95500294801 /* DrinkReminder WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53DAC94B2538E95500294801 /* DrinkReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DAC94F2538E95500294801 /* DrinkReminder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrinkReminder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DAC9552538E95500294801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		53DAC9572538E95700294801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53DAC9592538E95700294801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DAC95E2538E95700294801 /* DrinkReminder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DrinkReminder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DAC9632538E95700294801 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		53DAC9652538E95700294801 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53DAC9672538E95700294801 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		53DAC9692538E95700294801 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		53DAC96B2538E95700294801 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		53DAC96D2538E95700294801 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		53DAC96F2538E95800294801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53DAC9722538E95800294801 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53DAC9742538E95800294801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DAC9752538E95800294801 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DAC95B2538E95700294801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DAC9442538E95500294801 = {
+			isa = PBXGroup;
+			children = (
+				53DAC9532538E95500294801 /* DrinkReminder WatchKit App */,
+				53DAC9622538E95700294801 /* DrinkReminder WatchKit Extension */,
+				53DAC94C2538E95500294801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53DAC94C2538E95500294801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DAC94B2538E95500294801 /* DrinkReminder.app */,
+				53DAC94F2538E95500294801 /* DrinkReminder WatchKit App.app */,
+				53DAC95E2538E95700294801 /* DrinkReminder WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53DAC9532538E95500294801 /* DrinkReminder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				53DAC9542538E95500294801 /* Interface.storyboard */,
+				53DAC9572538E95700294801 /* Assets.xcassets */,
+				53DAC9592538E95700294801 /* Info.plist */,
+			);
+			path = "DrinkReminder WatchKit App";
+			sourceTree = "<group>";
+		};
+		53DAC9622538E95700294801 /* DrinkReminder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53DAC9632538E95700294801 /* HostingController.swift */,
+				53DAC9652538E95700294801 /* ContentView.swift */,
+				53DAC9672538E95700294801 /* ExtensionDelegate.swift */,
+				53DAC9692538E95700294801 /* NotificationController.swift */,
+				53DAC96B2538E95700294801 /* NotificationView.swift */,
+				53DAC96D2538E95700294801 /* ComplicationController.swift */,
+				53DAC96F2538E95800294801 /* Assets.xcassets */,
+				53DAC9742538E95800294801 /* Info.plist */,
+				53DAC9752538E95800294801 /* PushNotificationPayload.apns */,
+				53DAC9712538E95800294801 /* Preview Content */,
+			);
+			path = "DrinkReminder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		53DAC9712538E95800294801 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53DAC9722538E95800294801 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53DAC94A2538E95500294801 /* DrinkReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DAC9802538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder" */;
+			buildPhases = (
+				53DAC9492538E95500294801 /* Resources */,
+				53DAC97F2538E95800294801 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DAC9522538E95500294801 /* PBXTargetDependency */,
+			);
+			name = DrinkReminder;
+			productName = DrinkReminder;
+			productReference = 53DAC94B2538E95500294801 /* DrinkReminder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		53DAC94E2538E95500294801 /* DrinkReminder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DAC97C2538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder WatchKit App" */;
+			buildPhases = (
+				53DAC94D2538E95500294801 /* Resources */,
+				53DAC97B2538E95800294801 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DAC9612538E95700294801 /* PBXTargetDependency */,
+			);
+			name = "DrinkReminder WatchKit App";
+			productName = "DrinkReminder WatchKit App";
+			productReference = 53DAC94F2538E95500294801 /* DrinkReminder WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		53DAC95D2538E95700294801 /* DrinkReminder WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DAC9782538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder WatchKit Extension" */;
+			buildPhases = (
+				53DAC95A2538E95700294801 /* Sources */,
+				53DAC95B2538E95700294801 /* Frameworks */,
+				53DAC95C2538E95700294801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrinkReminder WatchKit Extension";
+			productName = "DrinkReminder WatchKit Extension";
+			productReference = 53DAC95E2538E95700294801 /* DrinkReminder WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53DAC9452538E95500294801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					53DAC94A2538E95500294801 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					53DAC94E2538E95500294801 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					53DAC95D2538E95700294801 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 53DAC9482538E95500294801 /* Build configuration list for PBXProject "DrinkReminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53DAC9442538E95500294801;
+			productRefGroup = 53DAC94C2538E95500294801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DAC94A2538E95500294801 /* DrinkReminder */,
+				53DAC94E2538E95500294801 /* DrinkReminder WatchKit App */,
+				53DAC95D2538E95700294801 /* DrinkReminder WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DAC9492538E95500294801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DAC94D2538E95500294801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DAC9582538E95700294801 /* Assets.xcassets in Resources */,
+				53DAC9562538E95500294801 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DAC95C2538E95700294801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DAC9732538E95800294801 /* Preview Assets.xcassets in Resources */,
+				53DAC9702538E95800294801 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DAC95A2538E95700294801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DAC9662538E95700294801 /* ContentView.swift in Sources */,
+				53DAC9642538E95700294801 /* HostingController.swift in Sources */,
+				53DAC96A2538E95700294801 /* NotificationController.swift in Sources */,
+				53DAC9682538E95700294801 /* ExtensionDelegate.swift in Sources */,
+				53DAC96C2538E95700294801 /* NotificationView.swift in Sources */,
+				53DAC96E2538E95700294801 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53DAC9522538E95500294801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DAC94E2538E95500294801 /* DrinkReminder WatchKit App */;
+			targetProxy = 53DAC9512538E95500294801 /* PBXContainerItemProxy */;
+		};
+		53DAC9612538E95700294801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DAC95D2538E95700294801 /* DrinkReminder WatchKit Extension */;
+			targetProxy = 53DAC9602538E95700294801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53DAC9542538E95500294801 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DAC9552538E95500294801 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53DAC9762538E95800294801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53DAC9772538E95800294801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53DAC9792538E95800294801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkReminder WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DrinkReminder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		53DAC97A2538E95800294801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkReminder WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DrinkReminder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		53DAC97D2538E95800294801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				IBSC_MODULE = DrinkReminder_WatchKit_Extension;
+				INFOPLIST_FILE = "DrinkReminder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		53DAC97E2538E95800294801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				IBSC_MODULE = DrinkReminder_WatchKit_Extension;
+				INFOPLIST_FILE = "DrinkReminder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		53DAC9812538E95800294801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53DAC9822538E95800294801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CSHDev.DrinkReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53DAC9482538E95500294801 /* Build configuration list for PBXProject "DrinkReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DAC9762538E95800294801 /* Debug */,
+				53DAC9772538E95800294801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DAC9782538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DAC9792538E95800294801 /* Debug */,
+				53DAC97A2538E95800294801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DAC97C2538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DAC97D2538E95800294801 /* Debug */,
+				53DAC97E2538E95800294801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DAC9802538E95800294801 /* Build configuration list for PBXNativeTarget "DrinkReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DAC9812538E95800294801 /* Debug */,
+				53DAC9822538E95800294801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53DAC9452538E95500294801 /* Project object */;
+}
